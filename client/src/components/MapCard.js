@@ -6,7 +6,7 @@ const MapCard =(props)=>{
         <div className="col-md-8 " style={{height: '100%', paddingLeft: '25px', position: 'relative', zIndex: '2'}}>
             <div className="resources-card" style={{height: '386px', background: "url('img/map.png')"}}>
 
-                <Link to=" ">
+               
 
                     {/* <!-- CLICK TO ENLARGE MAP --> */}
                                 <div className="row">
@@ -22,7 +22,7 @@ const MapCard =(props)=>{
                             </div>
                         </div>
                     </div>
-                </Link>
+            
 
 
             </div>
