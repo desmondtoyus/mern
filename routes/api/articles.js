@@ -1,12 +1,17 @@
 const router = require("express").Router();
 const articleController = require("../../controllers/articleController");
 
-// Matches with "/api/books"
+// Testing Route
 router.route("/")
   .get(articleController.findAll)
   .post(function (req, res) {
-    res.send("whtfgkjfgr");
+    console.log("Routing working");
   });
+
+  // The correct Route
+// router.route("/")
+//   .get(reportController.findAll)
+//   .post(reportController.create);
 
 // Matches with "/api/books/:id"
 router
